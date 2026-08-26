@@ -1,0 +1,1606 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>La Roulotte O'Spot</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <<header class="site-header">
+
+    <div class="logo-container">
+        <img src="images/logo.jpg" alt="La Roulotte O'Spot">
+    </div>
+
+    <div class="header-text">
+        <h1>La Roulotte O'Spot</h1>
+        <p>Bienvenue chez nous !</p>
+    </div>
+
+</header>
+
+<nav class="navigation">
+
+    <a href="#accueil">Accueil</a>
+    <a href="#menu">Notre menu</a>
+    <a href="#apropos">À propos</a>
+    <a href="#galerie">Galerie</a>
+    <a href="#temoignages">Témoignages</a>
+    <a href="#contact">Contact</a>
+
+</nav>
+
+
+    <main>
+
+       <section id="accueil" class="hero">
+
+    <div class="hero-overlay">
+
+        <div class="hero-content">
+
+            <h2>Bienvenue à La Roulotte O'Spot</h2>
+
+            <p>
+                Du fait maison, du gourmand et surtout...
+                de quoi se régaler ! 🍔
+            </p>
+
+            <a href="#menu" class="bouton hero-bouton">
+                Voir notre menu
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+        <<section id="menu" class="menu-section">
+
+    <div class="section-title">
+
+        <p class="petit-titre">À LA CARTE</p>
+
+        <h2>Notre menu</h2>
+
+        <p>
+            Du gourmand, du généreux et préparé avec amour ❤️
+        </p>
+
+    </div>
+
+
+    <div class="menu-categories">
+
+    <button class="category-button active"
+            onclick="showCategory('burgers', this)">
+        🍔 Burgers
+    </button>
+
+    <button class="category-button"
+            onclick="showCategory('tacos', this)">
+        🌮 Tacos
+    </button>
+
+    <button class="category-button"
+            onclick="showCategory('cheezy-fries', this)">
+        🍟 Cheezy Fries
+    </button>
+
+    <button class="category-button"
+            onclick="showCategory('hotdogs', this)">
+        🌭 Hot-Dog
+    </button>
+
+    <button class="category-button"
+            onclick="showCategory('creamy-chips', this)">
+        🆕 Creamy Chips
+    </button>
+
+    <button class="category-button"
+            onclick="showCategory('crepes', this)">
+        🥞 Crêpes
+    </button>
+
+    <button class="category-button"
+            onclick="showCategory('gaufres', this)">
+        🧇 Gaufres
+    </button>
+
+    <button class="category-button"
+            onclick="showCategory('milkshakes', this)">
+        🥤 Milkshakes
+    </button>
+
+    <button class="category-button"
+            onclick="showCategory('boissons', this)">
+        🥤 Boissons
+    </button>
+
+</div>
+
+
+<div id="burgers" class="product-category active-category">
+
+    <div class="product-grid">
+
+
+        <article class="product-card">
+
+            <img src="images/burger.jpg" alt="Burger O'Spot">
+
+            <div class="product-content">
+
+                <span class="product-badge">
+                    🍔 SIGNATURE
+                </span>
+
+                <h3>Burger O'Spot</h3>
+
+                <p>
+                    Haché, fromage, salade, tomates
+                    et oignons.
+                </p>
+
+                <p class="product-note">
+                    🍟 Servi avec une portion de frites.
+                </p>
+
+                <strong>1 400 F</strong>
+
+            </div>
+
+        </article>
+
+
+        <article class="product-card">
+
+            <img src="images/croissant-burger.jpg"
+                 alt="Croissant Burger">
+
+            <div class="product-content">
+
+                <span class="product-badge">
+                    🥐🍔 SIGNATURE
+                </span>
+
+                <h3>Croissant Burger</h3>
+
+                <p>
+                    Un burger généreusement garni
+                    dans un délicieux croissant.
+                </p>
+
+                <p class="product-note">
+                    🍟 Servi avec une portion de frites.
+                </p>
+
+                <strong>1 400 F</strong>
+
+            </div>
+
+        </article>
+
+
+    </div>
+
+
+    <div class="menu-options">
+
+        <h3>🧀 Personnalisez votre burger</h3>
+
+        <p>
+    <strong>1 fromage au choix :</strong>
+
+    <span class="option-tag">Cheese</span>
+    <span class="option-tag">Mozzarella</span>
+    <span class="option-tag">Raclette</span>
+    <span class="option-tag">Chèvre</span>
+</p>
+
+        <p>
+    <strong>1 sauce au choix pour vos frites :</strong>
+
+    <span class="option-tag">Fromagère</span>
+    <span class="option-tag">BBQ</span>
+    <span class="option-tag">Hamburger</span>
+    <span class="option-tag">Sauce rouge</span>
+</p>
+
+        <p>
+    <strong>➕ Suppléments : 300 F</strong>
+
+    <span class="option-tag">Protéine</span>
+    <span class="option-tag">Fromage</span>
+    <span class="option-tag">Bacon</span>
+    <span class="option-tag">Œuf</span>
+    <span class="option-tag">Crudités</span>
+    <span class="option-tag">Sauce</span>
+</p>
+
+    </div>
+
+</div>
+
+        </article>
+
+
+        
+
+    </div>
+
+</div>
+
+
+<div id="tacos" class="product-category">
+
+    <div class="product-grid">
+
+        <article class="product-card">
+
+            <img src="images/tacos.jpg"
+                 alt="Tacos">
+
+            <div class="product-content">
+
+                <h3>Tacos</h3>
+
+                <p>
+                    Choisissez votre garniture
+                    et composez votre tacos.
+                </p>
+
+                <strong>1 000 F</strong>
+
+            </div>
+
+        </article>
+
+    </div>
+
+
+    <div class="menu-options">
+
+        <h3>🌮 Choisissez votre garniture</h3>
+
+        <p>
+    <strong>1 protéine :</strong>
+
+    <span class="option-tag">Haché</span>
+    <span class="option-tag">Poulet pané</span>
+    <span class="option-tag">Cordon Bleu</span>
+    <span class="option-tag">Chipolatas</span>
+    <span class="option-tag">Merguez</span>
+</p>
+
+        <p>
+    <strong>1 fromage :</strong>
+
+    <span class="option-tag">Cheese</span>
+    <span class="option-tag">Mozzarella</span>
+    <span class="option-tag">Raclette</span>
+    <span class="option-tag">Chèvre</span>
+</p>
+
+        <p>
+    <strong>1 sauce :</strong>
+
+    <span class="option-tag">Fromagère</span>
+    <span class="option-tag">BBQ</span>
+    <span class="option-tag">Hamburger</span>
+    <span class="option-tag">Sauce rouge</span>
+</p>
+
+        <p>
+    <strong>➕ Suppléments : 300 F</strong>
+
+    <span class="option-tag">Protéine</span>
+    <span class="option-tag">Fromage</span>
+    <span class="option-tag">Bacon</span>
+    <span class="option-tag">Œuf</span>
+    <span class="option-tag">Crudités</span>
+    <span class="option-tag">Sauce</span>
+</p>
+
+    </div>
+
+</div>
+
+        </article>
+
+    </div>
+
+</div>
+<div id="cheezy-fries" class="product-category">
+
+    <div class="product-grid">
+
+        <article class="product-card">
+
+            <img src="images/cheezy-fries.jpg"
+                 alt="Cheezy Fries">
+
+            <div class="product-content">
+
+                <h3>Cheezy Fries</h3>
+
+                <p>
+                    Des frites généreuses avec
+                    votre garniture préférée.
+                </p>
+
+                <strong>700 F</strong>
+
+            </div>
+
+        </article>
+
+    </div>
+
+    <div class="menu-options">
+
+        <h3>🍟 Choisissez votre garniture</h3>
+
+        <p>
+    <strong>1 protéine :</strong>
+
+    <span class="option-tag">Haché</span>
+    <span class="option-tag">Poulet pané</span>
+    <span class="option-tag">Cordon Bleu</span>
+    <span class="option-tag">Chipolatas</span>
+    <span class="option-tag">Merguez</span>
+</p>
+
+        <p>
+    <strong>1 fromage :</strong>
+
+    <span class="option-tag">Cheese</span>
+    <span class="option-tag">Mozzarella</span>
+    <span class="option-tag">Raclette</span>
+    <span class="option-tag">Chèvre</span>
+</p>
+
+        <p>
+    <strong>1 sauce :</strong>
+
+    <span class="option-tag">Fromagère</span>
+    <span class="option-tag">BBQ</span>
+    <span class="option-tag">Hamburger</span>
+    <span class="option-tag">Sauce rouge</span>
+</p>
+
+        <p>
+    <strong>➕ Suppléments : 300 F</strong>
+
+    <span class="option-tag">Protéine</span>
+    <span class="option-tag">Fromage</span>
+    <span class="option-tag">Bacon</span>
+    <span class="option-tag">Œuf</span>
+    <span class="option-tag">Crudités</span>
+    <span class="option-tag">Sauce</span>
+</p>
+
+    </div>
+
+</div>
+
+<div id="hotdogs" class="product-category">
+
+    <div class="product-grid">
+
+        <article class="product-card">
+
+            <img src="images/hotdog.jpg"
+                 alt="Hot-Dog">
+
+            <div class="product-content">
+
+                <h3>Hot-Dog</h3>
+
+                <p>
+                    Saucisse jumbo, deux tranches de bacon,
+                    oignons caramélisés et relish.
+                </p>
+
+                <p class="product-note">
+                    🍟 Servi avec une portion de frites.
+                </p>
+
+                <strong>1 400 F</strong>
+
+            </div>
+
+        </article>
+
+    </div>
+
+
+    <div class="menu-options">
+
+        <h3>🌭 Personnalisez votre Hot-Dog</h3>
+
+        <p>
+    <strong>1 fromage au choix :</strong>
+
+    <span class="option-tag">Cheese</span>
+    <span class="option-tag">Mozzarella</span>
+    <span class="option-tag">Raclette</span>
+    <span class="option-tag">Chèvre</span>
+</p>
+
+        <p>
+    <strong>1 sauce au choix pour vos frites :</strong>
+
+    <span class="option-tag">Fromagère</span>
+    <span class="option-tag">BBQ</span>
+    <span class="option-tag">Hamburger</span>
+    <span class="option-tag">Sauce rouge</span>
+</p>
+
+        <p>
+    <strong>➕ Suppléments : 300 F</strong>
+
+    <span class="option-tag">Protéine</span>
+    <span class="option-tag">Fromage</span>
+    <span class="option-tag">Bacon</span>
+    <span class="option-tag">Œuf</span>
+    <span class="option-tag">Crudités</span>
+    <span class="option-tag">Sauce</span>
+</p>
+
+    </div>
+
+</div>
+<div id="creamy-chips" class="product-category">
+
+    <div class="product-grid">
+
+        <article class="product-card">
+
+            <img src="images/creamy-chips.jpg"
+                 alt="Creamy Chips">
+
+            <div class="product-content">
+
+                <span class="product-badge">
+                    🆕 NOUVEAU CONCEPT
+                </span>
+
+                <h3>Creamy Chips</h3>
+
+                <p>
+                    Apportez vos chips favorites et
+                    demandez votre garniture préférée.
+                </p>
+
+                <strong>À partir de 500 F</strong>
+
+            </div>
+
+        </article>
+
+    </div>
+
+
+    <div class="menu-options">
+
+        <h3>🍟 Choisissez votre garniture</h3>
+
+        <p>
+    <strong>1 protéine :</strong>
+
+    <span class="option-tag">Haché</span>
+    <span class="option-tag">Poulet pané</span>
+    <span class="option-tag">Cordon Bleu</span>
+    <span class="option-tag">Chipolatas</span>
+    <span class="option-tag">Merguez</span>
+</p>
+
+        <p>
+    <strong>1 fromage :</strong>
+
+    <span class="option-tag">Cheese</span>
+    <span class="option-tag">Mozzarella</span>
+    <span class="option-tag">Raclette</span>
+    <span class="option-tag">Chèvre</span>
+</p>
+
+        <p>
+    <strong>1 sauce :</strong>
+
+    <span class="option-tag">Fromagère</span>
+    <span class="option-tag">BBQ</span>
+    <span class="option-tag">Hamburger</span>
+    <span class="option-tag">Sauce rouge</span>
+</p>
+
+        <p>
+    <strong>➕ Suppléments : 300 F</strong>
+
+    <span class="option-tag">Protéine</span>
+    <span class="option-tag">Fromage</span>
+    <span class="option-tag">Bacon</span>
+    <span class="option-tag">Œuf</span>
+    <span class="option-tag">Crudités</span>
+    <span class="option-tag">Sauce</span>
+</p>
+
+    </div>
+
+</div>
+
+
+<div id="crepes" class="product-category">
+
+    <div class="product-grid">
+
+        <article class="product-card">
+
+            <img src="images/crepe.jpg"
+                 alt="Crêpe">
+
+            <div class="product-content">
+
+                <h3>Crêpe</h3>
+
+                <p>
+                    Une crêpe gourmande à personnaliser
+                    selon vos envies.
+                </p>
+
+                <strong>700 F</strong>
+
+            </div>
+
+        </article>
+
+    </div>
+
+
+    <div class="menu-options">
+
+        <h3>🥞 Choisissez votre coulis</h3>
+
+        <p>
+    <strong>1 coulis :</strong>
+
+    <span class="option-tag">Nutella</span>
+    <span class="option-tag">Caramel</span>
+    <span class="option-tag">Chocolat liquide</span>
+    <span class="option-tag">Chocolat en poudre</span>
+    <span class="option-tag">Fraise</span>
+    <span class="option-tag">Skippy</span>
+</p>
+
+        <p>
+    <strong>➕ Suppléments : 200 F</strong>
+
+    <span class="option-tag">Oreo</span>
+    <span class="option-tag">Spéculoos</span>
+    <span class="option-tag">Banane</span>
+    <span class="option-tag">Marshmallow</span>
+    <span class="option-tag">Chantilly</span>
+    <span class="option-tag">Glace vanille</span>
+</p>
+
+        <p>
+    <strong>⭐ Suppléments : 300 F</strong>
+
+    <span class="option-tag">Fraise fraîche</span>
+    <span class="option-tag">Kinder Bueno</span>
+</p>
+
+    </div>
+
+</div>
+
+
+<div id="gaufres" class="product-category">
+
+    <div class="product-grid">
+
+        <article class="product-card">
+
+            <img src="images/gaufre.jpg"
+                 alt="Gaufre">
+
+            <div class="product-content">
+
+                <h3>Gaufre</h3>
+
+                <p>
+                    Une gaufre gourmande à personnaliser
+                    selon vos envies.
+                </p>
+
+                <strong>700 F</strong>
+
+            </div>
+
+        </article>
+
+    </div>
+
+
+    <div class="menu-options">
+
+        <h3>🧇 Choisissez votre coulis</h3>
+
+        <p>
+    <strong>1 coulis :</strong>
+
+    <span class="option-tag">Nutella</span>
+    <span class="option-tag">Caramel</span>
+    <span class="option-tag">Chocolat liquide</span>
+    <span class="option-tag">Chocolat en poudre</span>
+    <span class="option-tag">Fraise</span>
+    <span class="option-tag">Skippy</span>
+</p>
+
+        <p>
+    <strong>➕ Suppléments : 200 F</strong>
+
+    <span class="option-tag">Oreo</span>
+    <span class="option-tag">Spéculoos</span>
+    <span class="option-tag">Banane</span>
+    <span class="option-tag">Marshmallow</span>
+    <span class="option-tag">Chantilly</span>
+    <span class="option-tag">Glace vanille</span>
+</p>
+
+        <p>
+    <strong>⭐ Suppléments : 300 F</strong>
+
+    <span class="option-tag">Fraise fraîche</span>
+    <span class="option-tag">Kinder Bueno</span>
+</p>
+
+    </div>
+
+</div>
+
+
+<div id="milkshakes" class="product-category">
+
+    <div class="product-grid">
+
+        <article class="product-card">
+
+            <img src="images/milkshake.jpg"
+                 alt="Milkshake">
+
+            <div class="product-content">
+
+                <h3>Milkshake</h3>
+
+                <p>
+                    Un milkshake gourmand avec
+                    chantilly et coulis au choix.
+                </p>
+
+                <strong>1 000 F</strong>
+
+            </div>
+
+        </article>
+
+    </div>
+
+
+    <div class="menu-options">
+
+        <h3>🥤 Composez votre Milkshake</h3>
+
+        <p>
+    <strong>1 parfum :</strong>
+
+    <span class="option-tag">Vanille</span>
+    <span class="option-tag">Oreo</span>
+    <span class="option-tag">Spéculoos</span>
+    <span class="option-tag">Kinder</span>
+</p>
+
+        <p>
+    <strong>1 coulis :</strong>
+
+    <span class="option-tag">Caramel</span>
+    <span class="option-tag">Chocolat</span>
+    <span class="option-tag">Fraise</span>
+</p>
+
+        <p>
+            <strong>Inclus :</strong>
+            Chantilly
+        </p>
+
+    </div>
+
+</div>
+<div id="boissons" class="product-category">
+
+    <div class="product-grid">
+
+        <article class="product-card">
+
+            <img src="images/coca.jpg"
+                 alt="Coca-Cola">
+
+            <div class="product-content">
+
+                <h3>Coca-Cola</h3>
+
+                <strong>300 F</strong>
+
+            </div>
+
+        </article>
+
+
+        <article class="product-card">
+
+            <img src="images/fanta-raisin.jpg"
+                 alt="Fanta Raisin">
+
+            <div class="product-content">
+
+                <h3>Fanta Raisin</h3>
+
+                <strong>300 F</strong>
+
+            </div>
+
+        </article>
+
+
+        <article class="product-card">
+
+            <img src="images/sprite.jpg"
+                 alt="Sprite">
+
+            <div class="product-content">
+
+                <h3>Sprite</h3>
+
+                <strong>300 F</strong>
+
+            </div>
+
+        </article>
+
+
+        <article class="product-card">
+
+            <img src="images/eau.jpg"
+                 alt="Eau Vaimato">
+
+            <div class="product-content">
+
+                <h3>Eau Vaimato</h3>
+
+                <p>
+                    Petite bouteille
+                </p>
+
+                <strong>150 F</strong>
+
+            </div>
+
+        </article>
+
+    </div>
+
+
+    <div class="menu-options">
+
+        <h3>🥤 Formule Combo</h3>
+
+        <p>
+            Ajoutez une boisson à votre menu pour
+            <strong>+200 F</strong> au lieu de 300 F.
+        </p>
+
+        <p>
+            <strong>💰 Économisez 100 F</strong>
+        </p>
+
+    </div>
+
+</div>
+
+        </article>
+
+
+</section>
+
+
+        <section id="apropos" class="about-section">
+
+    <div class="about-image">
+
+        <img src="images/roulotte.jpg" alt="La Roulotte O'Spot">
+
+    </div>
+
+
+    <div class="about-content">
+
+        <p class="petit-titre">QUI SOMMES-NOUS ?</p>
+
+        <h2>La Roulotte O'Spot</h2>
+
+        <p>
+            Bienvenue à La Roulotte O'Spot !
+        </p>
+
+        <p>
+            Nous vous proposons une cuisine généreuse et
+            gourmande, préparée avec passion pour vous faire
+            passer un bon moment autour de plats qui font plaisir.
+        </p>
+
+        <p>
+            Que vous soyez plutôt burger, tacos, hot-dog,
+            crêpe, gaufre ou milkshake... il y a forcément
+            quelque chose qui vous fera craquer. 😋
+        </p>
+
+        <a href="#contact" class="bouton">
+            Nous contacter
+        </a>
+
+    </div>
+
+</section>
+
+<section id="galerie" class="gallery-section">
+
+    <div class="section-title">
+
+        <p class="petit-titre">NOS MOMENTS</p>
+
+        <h2>Galerie photos</h2>
+
+        <p>
+            Un petit aperçu de La Roulotte O'Spot ❤️
+        </p>
+
+    </div>
+
+
+   <div class="gallery-grid">
+
+    <img src="images/photo1.jpg" alt="La Roulotte O'Spot" onclick="openLightbox(this)">
+    
+    <img src="images/photo2.jpg" alt="La Roulotte O'Spot" onclick="openLightbox(this)">
+    
+    <img src="images/photo3.jpg" alt="La Roulotte O'Spot" onclick="openLightbox(this)">
+    
+    <img src="images/photo4.jpg" alt="La Roulotte O'Spot" onclick="openLightbox(this)">
+    
+    <img src="images/photo5.jpg" alt="La Roulotte O'Spot" onclick="openLightbox(this)">
+    
+    <img src="images/photo6.jpg" alt="La Roulotte O'Spot" onclick="openLightbox(this)">
+
+</div>
+
+</section>
+
+<section id="temoignages" class="testimonials-section">
+
+    <div class="section-title">
+
+        <p class="petit-titre">ILS EN PARLENT</p>
+
+        <h2>Nos clients témoignent</h2>
+
+        <p>
+            Votre avis compte ! ❤️
+        </p>
+
+    </div>
+
+
+    <!-- FORMULAIRE D'AVIS -->
+
+    <div class="review-form-container">
+
+        <h3>Partagez votre expérience</h3>
+
+        <form id="review-form">
+
+            <div class="review-field">
+
+                <label for="review-name">
+                    Votre prénom ou pseudo
+                </label>
+
+                <input
+                    type="text"
+                    id="review-name"
+                    name="name"
+                    maxlength="80"
+                    placeholder="Ex. Marie"
+                    required
+                >
+
+            </div>
+
+
+            <div class="review-field">
+
+                <label>
+                    Votre note
+                </label>
+
+                <div class="star-rating">
+
+                    <input type="radio" id="star5" name="rating" value="5" required>
+                    <label for="star5" title="5 étoiles">★</label>
+
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4" title="4 étoiles">★</label>
+
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3" title="3 étoiles">★</label>
+
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2" title="2 étoiles">★</label>
+
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1" title="1 étoile">★</label>
+
+                </div>
+
+            </div>
+
+
+            <div class="review-field">
+
+                <label for="review-message">
+                    Votre avis
+                </label>
+
+                <textarea
+                    id="review-message"
+                    name="message"
+                    maxlength="1000"
+                    rows="5"
+                    placeholder="Dites-nous ce que vous avez pensé..."
+                    required
+                ></textarea>
+
+            </div>
+
+
+            <button
+                type="submit"
+                class="bouton review-submit"
+            >
+                Envoyer mon avis
+            </button>
+
+
+            <p
+                id="review-status"
+                class="review-status"
+                aria-live="polite"
+            ></p>
+
+        </form>
+
+    </div>
+
+
+    <!-- AVIS VALIDÉS -->
+
+    <div
+        id="reviews-list"
+        class="testimonials-grid"
+    >
+    </div>
+
+
+</section>
+
+<section id="contact" class="contact-section">
+
+    <div class="section-title">
+
+        <p class="petit-titre">RENDEZ-NOUS VISITE</p>
+
+        <h2>Nous trouver</h2>
+
+        <p>
+            Une petite faim ? Venez nous voir ! 😋
+        </p>
+
+    </div>
+
+
+    <div class="contact-grid">
+
+
+        <div class="contact-info">
+
+
+            <!-- ADRESSE -->
+
+            <div class="contact-item">
+
+                <span class="contact-icon">📍</span>
+
+                <div>
+
+                    <h3>Notre adresse</h3>
+
+                    <p>
+                        Afaahiti, Tahiti<br>
+                        Polynésie française<br>
+
+                        <a href="https://www.google.com/maps/search/?api=1&query=53JG7P96%2BCM"
+                           target="_blank">
+                            📍 53JG7P96+CM
+                        </a>
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- HORAIRES -->
+
+            <div class="contact-item">
+
+                <span class="contact-icon">🕐</span>
+
+                <div>
+
+                    <h3>Nos horaires</h3>
+
+                    <p>
+                        <strong>Mercredi à lundi</strong><br>
+                        10h30 – 13h30<br>
+                        17h30 – 21h
+                    </p>
+
+                    <p>
+                        <strong>Fermé le mardi</strong>
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- TÉLÉPHONE -->
+
+            <div class="contact-item">
+
+                <span class="contact-icon">📞</span>
+
+                <div>
+
+                    <h3>Nous contacter</h3>
+
+                    <p>
+                        <a href="tel:+689372221">
+                            +689 37 22 21
+                        </a>
+                    </p>
+
+                    <p>
+                        <a href="https://wa.me/68987372221"
+                           target="_blank">
+                            💬 WhatsApp : +689 87 37 22 21
+                        </a>
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- RÉSEAUX SOCIAUX -->
+
+            <div class="contact-item">
+
+                <span class="contact-icon">📱</span>
+
+                <div>
+
+                    <h3>Nos réseaux</h3>
+
+                    <p>
+                        <a href="https://www.facebook.com/laroulotteospot"
+                           target="_blank">
+                            📘 Facebook — La Roulotte O'Spot
+                        </a>
+                    </p>
+
+                    <p>
+                        <a href="https://www.instagram.com/laroulotteo.spot"
+                           target="_blank">
+                            📸 Instagram — @laroulotteo.spot
+                        </a>
+                    </p>
+
+                    <p>
+                        <a href="https://www.tiktok.com/@laroulotteo.spot"
+                           target="_blank">
+                            🎵 TikTok — @laroulotteo.spot
+                        </a>
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- BOUTON CONTACT -->
+
+            <a href="tel:+689372221" class="bouton contact-button">
+                📞 Nous contacter
+            </a>
+
+
+        </div>
+
+
+        <!-- CARTE -->
+
+        <div class="map-container">
+
+            <div class="map-placeholder">
+
+                <span>📍</span>
+
+                <h3>La Roulotte O'Spot</h3>
+
+                <p>
+                    Afaahiti, Tahiti
+                </p>
+
+                <a href="https://www.google.com/maps/search/?api=1&query=53JG7P96%2BCM"
+                   target="_blank"
+                   class="petit-bouton">
+                    Voir sur Google Maps
+                </a>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+</section>
+
+    </main>
+
+
+   <footer class="site-footer">
+
+    <div class="footer-content">
+
+
+        <div class="footer-column">
+
+            <h3>La Roulotte O'Spot</h3>
+
+            <p>
+                Du gourmand, du généreux et surtout
+                du plaisir à chaque bouchée. 🍔
+            </p>
+
+        </div>
+
+
+
+        <div class="footer-column">
+
+            <h3>Navigation</h3>
+
+            <a href="#accueil">Accueil</a>
+
+            <a href="#menu">Notre menu</a>
+
+            <a href="#apropos">À propos</a>
+
+            <a href="#galerie">Galerie</a>
+
+            <a href="#temoignages">Témoignages</a>
+
+            <a href="#contact">Contact</a>
+
+        </div>
+
+
+
+        <div class="footer-column">
+
+            <h3>Nous trouver</h3>
+
+            <p>
+                📍 Afaahiti, Tahiti
+            </p>
+
+            <p>
+                📞 Contactez-nous
+            </p>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 La Roulotte O'Spot — Tous droits réservés.
+        </p>
+
+    </div>
+
+</footer>
+
+<<div id="lightbox" class="lightbox">
+
+    <button class="lightbox-close" onclick="closeLightbox()">
+        ×
+    </button>
+
+
+    <button class="lightbox-prev" onclick="previousImage()">
+        ❮
+    </button>
+
+
+    <div class="lightbox-content">
+
+        <img id="lightbox-image" src="" alt="Photo agrandie">
+
+        <div id="lightbox-counter">
+            1 / 6
+        </div>
+
+    </div>
+
+
+    <button class="lightbox-next" onclick="nextImage()">
+        ❯
+    </button>
+
+</div>
+
+<script>
+
+    const galleryImages = Array.from(
+        document.querySelectorAll(".gallery-grid img")
+    );
+
+    let currentImageIndex = 0;
+
+
+    function openLightbox(image) {
+
+        currentImageIndex = galleryImages.indexOf(image);
+
+        updateLightbox();
+
+        document
+            .getElementById("lightbox")
+            .classList.add("active");
+
+    }
+
+
+    function updateLightbox() {
+
+        const lightboxImage =
+            document.getElementById("lightbox-image");
+
+        const counter =
+            document.getElementById("lightbox-counter");
+
+
+        lightboxImage.src =
+            galleryImages[currentImageIndex].src;
+
+
+        lightboxImage.alt =
+            galleryImages[currentImageIndex].alt;
+
+
+        counter.textContent =
+            (currentImageIndex + 1)
+            + " / "
+            + galleryImages.length;
+
+    }
+
+
+    function nextImage() {
+
+        currentImageIndex++;
+
+        if (currentImageIndex >= galleryImages.length) {
+
+            currentImageIndex = 0;
+
+        }
+
+        updateLightbox();
+
+    }
+
+
+    function previousImage() {
+
+        currentImageIndex--;
+
+        if (currentImageIndex < 0) {
+
+            currentImageIndex =
+                galleryImages.length - 1;
+
+        }
+
+        updateLightbox();
+
+    }
+
+
+    function closeLightbox() {
+
+        document
+            .getElementById("lightbox")
+            .classList.remove("active");
+
+    }
+
+
+    document
+        .getElementById("lightbox")
+        .addEventListener("click", function(event) {
+
+            if (event.target === this) {
+
+                closeLightbox();
+
+            }
+
+        });
+
+
+    document.addEventListener("keydown", function(event) {
+
+        const lightbox =
+            document.getElementById("lightbox");
+
+
+        if (!lightbox.classList.contains("active")) {
+
+            return;
+
+        }
+
+
+        if (event.key === "ArrowRight") {
+
+            nextImage();
+
+        }
+
+
+        if (event.key === "ArrowLeft") {
+
+            previousImage();
+
+        }
+
+
+        if (event.key === "Escape") {
+
+            closeLightbox();
+
+        }
+
+    });
+function showCategory(categoryId, button) {
+
+    const categories =
+        document.querySelectorAll(".product-category");
+
+    categories.forEach(function(category) {
+
+        category.classList.remove("active-category");
+
+    });
+
+
+    const buttons =
+        document.querySelectorAll(".category-button");
+
+    buttons.forEach(function(btn) {
+
+        btn.classList.remove("active");
+
+    });
+
+
+    document
+        .getElementById(categoryId)
+        .classList.add("active-category");
+
+
+    button.classList.add("active");
+
+}
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+<script>
+    const SUPABASE_URL = "https://sohikbdaiohffkorrsig.supabase.co";
+    const SUPABASE_KEY = "sb_publishable_k1Khbv0DdKfdR3DEYtSbxA_EDHWMM4n";
+
+    const supabaseClient = supabase.createClient(
+        SUPABASE_URL,
+        SUPABASE_KEY
+    );
+
+
+    /* ---------- ENVOI DES AVIS ---------- */
+
+    const reviewForm = document.getElementById("review-form");
+    const reviewStatus = document.getElementById("review-status");
+
+
+    reviewForm.addEventListener("submit", async function (event) {
+
+        event.preventDefault();
+
+        const name = document
+            .getElementById("review-name")
+            .value
+            .trim();
+
+        const message = document
+            .getElementById("review-message")
+            .value
+            .trim();
+
+        const selectedRating = document.querySelector(
+            'input[name="rating"]:checked'
+        );
+
+
+        if (!selectedRating) {
+
+            reviewStatus.textContent =
+                "Veuillez choisir une note ⭐";
+
+            return;
+        }
+
+
+        const rating = Number(selectedRating.value);
+
+
+        reviewStatus.textContent =
+            "Envoi de votre avis...";
+
+
+        const { error } = await supabaseClient
+            .from("reviews")
+            .insert({
+                name: name,
+                rating: rating,
+                message: message,
+                published: false
+            });
+
+
+        if (error) {
+
+            console.error(error);
+
+            reviewStatus.textContent =
+                "Une erreur est survenue. Veuillez réessayer.";
+
+            return;
+        }
+
+
+        reviewForm.reset();
+
+        reviewStatus.textContent =
+            "Merci pour votre avis ❤️ Il sera publié après validation.";
+    });
+        /* ---------- AFFICHAGE DES AVIS VALIDÉS ---------- */
+
+    async function loadReviews() {
+
+        const reviewsList =
+            document.getElementById("reviews-list");
+
+        const { data, error } = await supabaseClient
+            .from("reviews")
+            .select("name, rating, message, created_at")
+            .eq("published", true)
+            .order("created_at", { ascending: false });
+
+
+        if (error) {
+
+            console.error("Erreur lors du chargement des avis :", error);
+
+            return;
+        }
+
+
+        reviewsList.innerHTML = "";
+
+
+        data.forEach(function(review) {
+
+            const article =
+                document.createElement("article");
+
+            article.className =
+                "testimonial-card";
+
+
+            const stars =
+                "★".repeat(review.rating)
+                + "☆".repeat(5 - review.rating);
+
+
+            article.innerHTML = `
+                <div class="stars">
+                    ${stars}
+                </div>
+
+                <p>
+                    « ${escapeHTML(review.message)} »
+                </p>
+
+                <h3>
+                    — ${escapeHTML(review.name)}
+                </h3>
+            `;
+
+
+            reviewsList.appendChild(article);
+
+        });
+
+    }
+
+
+    function escapeHTML(text) {
+
+        const div = document.createElement("div");
+
+        div.textContent = text;
+
+        return div.innerHTML;
+    }
+
+
+    loadReviews();
+</script>
+</body>
+
+</html>
