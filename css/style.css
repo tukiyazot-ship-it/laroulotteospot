@@ -2142,4 +2142,53 @@ footer p {
     }
 
 }
+/* ---------- MINI OFFRE COMBO ---------- */
+
+.combo-mini {
+    margin-top: 12px;
+    padding: 9px 12px;
+
+    border: 2px solid var(--ospot-black);
+
+    text-align: center;
+
+    font-size: 14px;
+    font-weight: 700;
+
+    line-height: 1.3;
+}
+
+.combo-mini strong {
+    display: block;
+
+    font-size: 17px;
+}
+
+.combo-mini span {
+    display: block;
+
+    margin-top: 3px;
+
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+/* ---------- COMBO MOBILE ---------- */
+
+@media (max-width: 600px) {
+
+    .combo-mini {
+        padding: 8px 10px;
+    }
+
+    .combo-mini strong {
+        font-size: 16px;
+    }
+
+    .combo-mini span {
+        font-size: 11px;
+    }
+
+}
 }
